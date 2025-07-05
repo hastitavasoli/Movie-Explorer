@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       <main>
         <section
           id='hero'
-          className='bg-[url(/bg.jpeg)] relative bg-cover bg-center min-h-screen text-white flex items-center justify-center text-center'
+          className='bg-[url(/bg.jpeg)] relative bg-cover bg-center min-h-[calc(100vh-80px)] text-white flex items-center justify-center text-center'
         >
           <div className='absolute inset-0 z-0 bg-gray-800/40'></div>
           <div className='relative container z-10 '>
